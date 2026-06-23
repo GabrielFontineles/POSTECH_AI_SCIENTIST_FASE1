@@ -25,7 +25,7 @@ POS-TECH_AI_SCIENTIST_FASE1/
 │   ├── __init__.py
 │   └── utils.py                          # Funções auxiliares reutilizáveis
 │
-├── models/                               # Modelos serializados (gerados pelo notebook 04)
+├── models/                               # Modelos serializados (gerados pelo notebook 02)
 │   ├── nps_classifier.pkl
 │   ├── label_encoder.pkl
 │   └── feature_names.pkl
