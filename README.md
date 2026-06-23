@@ -153,6 +153,13 @@ Duas abordagens testadas e comparadas:
 - Python 3.10+ **ou** conta no Google Colab (sem instalação)
 - Git
 
+### Principais bibliotecas utilizadas
+- **Pandas** e **NumPy** — manipulação de dados
+- **Matplotlib** e **Seaborn** — visualizações
+- **Scikit-learn** — modelos de Machine Learning
+
+Todas as dependências estão listadas em `requirements.txt`.
+
 ### Opção 1 — Google Colab (recomendado)
 
 1. Abra cada notebook no Colab em ordem
