@@ -7,13 +7,13 @@ Este repositório contém o desenvolvimento do Tech Challenge Fase 1 – POS TEC
 ## Estrutura do Repositório
 
 ```
-nps-ecommerce/
+POS-TECH_AI_SCIENTIST_FASE1/
 │
 ├── data/
 │   ├── raw/                              # Dados originais, NUNCA modificados
 │   │   └── desafio_nps_fase_1.csv        # 2.500 registros de NPS
-│   └── processed/                        # Gerado pelo notebook 03 (não versionado)
-│       └── nps_processed.csv
+│   └── processed/                        
+│       └── nps_processed.csv             # Gerado pelos notebooks 
 │
 ├── notebooks/
 │   ├── 01_business_understanding.ipynb   # Entendimento do negócio e da target
