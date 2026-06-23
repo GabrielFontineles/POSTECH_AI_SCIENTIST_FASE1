@@ -1,12 +1,10 @@
-# 📊 NPS Preditivo — Tech Challenge Fase 1 | PosTech
+# PÓS-TECH AI SCIENTIST - FASE 1
 
-Projeto de Ciência de Dados desenvolvido para o **Tech Challenge da Fase 1** do curso PosTech. O objetivo é transformar dados operacionais de um e-commerce em insights acionáveis sobre a satisfação do cliente, usando o **NPS (Net Promoter Score)** como variável-alvo.
-
-> "Mais do que buscar a melhor métrica, o foco está em entendimento do problema, pensamento analítico e storytelling com dados." — Enunciado do desafio
+Este repositório contém o desenvolvimento do Tech Challenge Fase 1 – POS TECH, cujo objetivo é analisar dados de pedidos, entregas e interações de clientes em um e-commerce para compreender os fatores que influenciam a satisfação (NPS) e propor recomendações estratégicas para melhorar a experiência do cliente.
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 POSTECH_AI_SCIENTIST_FASE1/
@@ -52,7 +50,7 @@ POSTECH_AI_SCIENTIST_FASE1/
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferentes perfis de clientes. Mesmo com indicadores operacionais aparentemente similares, alguns clientes se tornam promotores e outros, detratores.
 
@@ -61,7 +59,7 @@ Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferente
 
 ---
 
-## 📦 Descrição da Base de Dados
+## Descrição da Base de Dados
 
 **Arquivo:** `data/raw/desafio_nps_fase_1.csv`
 **Registros:** 2.500 clientes | **Colunas:** 19
@@ -88,11 +86,11 @@ Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferente
 | `csat_internal_score` | float | Score interno de satisfação | ⚠️ **SIM** |
 | `nps_score` | float | **Variável-alvo** — nota NPS de 0 a 10 | — |
 
-> ⚠️ Colunas marcadas com **SIM** são excluídas do modelo por risco de **data leakage** — elas só existem após o evento que queremos prever.
+> Colunas marcadas com **SIM** são excluídas do modelo por risco de **data leakage** — elas só existem após o evento que queremos prever.
 
 ---
 
-## 🧠 Metodologia
+## Metodologia
 
 ### Notebook 01 — Análise e EDA
 - Entendimento do problema de negócio e importância do NPS
@@ -133,7 +131,7 @@ Duas abordagens testadas e comparadas:
 
 ---
 
-## 🔍 Principais Achados da EDA
+## Principais Achados da EDA
 
 | Fator | Correlação com NPS | Insight |
 |---|---|---|
@@ -145,7 +143,7 @@ Duas abordagens testadas e comparadas:
 
 ---
 
-## ▶️ Como Reproduzir os Resultados
+## Como Reproduzir os Resultados
 
 ### Pré-requisitos
 - Python 3.10+ **ou** conta no Google Colab (sem instalação)
@@ -189,7 +187,7 @@ Execute os notebooks **nessa ordem**: 01 → 02 → 03.
 
 ---
 
-## 📐 Boas Práticas Aplicadas
+## Boas Práticas Aplicadas
 
 | Prática | Como foi implementada |
 |---|---|
