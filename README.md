@@ -205,4 +205,10 @@ Execute os notebooks **nessa ordem**: 01 → 02 → 03.
 
 ## Integrantes
 
+- Gabriel Fontineles
+- Gabriel Kendy Sato
+- Josilene Oliveira Afonso
+- Katia Oliveira da Silva Costa
+- Yasmim de Oliveira Coelho
+
 Tech Challenge — Fase 1 | PosTech | 2026
