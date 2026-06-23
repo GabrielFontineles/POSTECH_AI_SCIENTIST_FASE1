@@ -132,7 +132,7 @@ Duas abordagens testadas e comparadas:
 
 ---
 
-## Principais Achados da EDA
+## Insights da Análise Exploratória de Dados
 
 | Fator | Correlação com NPS | Insight |
 |---|---|---|
