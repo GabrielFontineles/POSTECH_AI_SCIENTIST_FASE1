@@ -1,4 +1,4 @@
-# 📊 NPS Preditivo — Tech Challenge Fase 1 | PosTech
+# NPS Preditivo — Tech Challenge Fase 1 | PosTech
 
 Projeto de Ciência de Dados desenvolvido para o **Tech Challenge da Fase 1** do curso PosTech. O objetivo é transformar dados operacionais de um e-commerce em insights acionáveis sobre a satisfação do cliente, usando o **NPS (Net Promoter Score)** como variável-alvo.
 
@@ -6,7 +6,7 @@ Projeto de Ciência de Dados desenvolvido para o **Tech Challenge da Fase 1** do
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 nps-ecommerce/
@@ -56,7 +56,7 @@ nps-ecommerce/
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferentes perfis de clientes. Mesmo com indicadores operacionais aparentemente similares, alguns clientes se tornam promotores e outros, detratores.
 
@@ -65,7 +65,7 @@ Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferente
 
 ---
 
-## 📦 Descrição da Base de Dados
+## Descrição da Base de Dados
 
 **Arquivo:** `data/raw/desafio_nps_fase_1.csv`
 **Registros:** 2.500 clientes | **Colunas:** 19
@@ -92,11 +92,11 @@ Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferente
 | `csat_internal_score` | float | Score interno de satisfação | ⚠️ **SIM** |
 | `nps_score` | float | **Variável-alvo** — nota NPS de 0 a 10 | — |
 
-> ⚠️ Colunas marcadas com **SIM** são excluídas do modelo por risco de **data leakage** — elas só existem após o evento que queremos prever.
+> Colunas marcadas com **SIM** são excluídas do modelo por risco de **data leakage** — elas só existem após o evento que queremos prever.
 
 ---
 
-## 🧠 Metodologia
+## Metodologia
 
 ### 1. Entendimento do Negócio
 Análise conceitual do problema, importância do NPS e impactos em recompra, boca a boca e market share. Identificação de indicadores complementares (Churn Rate, CAC, LTV).
@@ -126,7 +126,7 @@ Classificação multiclasse (Detrator / Neutro / Promotor) com **Random Forest**
 
 ---
 
-## ▶️ Como Reproduzir os Resultados
+## Como Reproduzir os Resultados
 
 ### Pré-requisitos
 - Python 3.10+
@@ -173,7 +173,7 @@ jupyter nbconvert --to notebook --execute notebooks/04_modelo_preditivo.ipynb --
 
 ---
 
-## 📐 Boas Práticas Aplicadas
+## Boas Práticas Aplicadas
 
 | Prática | Como foi implementada |
 |---|---|
