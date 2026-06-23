@@ -34,6 +34,7 @@ POSTECH_AI_SCIENTIST_FASE1/
 │   └── 1IAST_Fase1_TechChallenge.pdf     # Enunciado original do desafio
 │
 ├── .gitignore
+├── 01_eda_nps.py                         #Notebook em python
 ├── requirements.txt
 └── README.md
 ```
