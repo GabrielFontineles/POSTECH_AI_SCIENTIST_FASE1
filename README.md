@@ -55,13 +55,16 @@ POSTECH_AI_SCIENTIST_FASE1/
 Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferentes perfis de clientes. Mesmo com indicadores operacionais aparentemente similares, alguns clientes se tornam promotores e outros, detratores.
 
 **Pergunta central:**
-> Quais fatores operacionais realmente influenciam a satisfação do cliente e como a empresa pode agir de forma **proativa**, antes mesmo da aplicação da pesquisa de NPS?
+Quais fatores operacionais realmente influenciam a satisfação do cliente e como a empresa pode agir de forma **proativa**, antes mesmo da aplicação da pesquisa de NPS?
 
 ---
 
 ## Descrição da Base de Dados
 
 **Arquivo:** `data/raw/desafio_nps_fase_1.csv`
+
+O dataset contém 2.500 registros de clientes com informações coletadas ao longo da jornada de compra, abrangendo dados de pedido, logistíca, atendimento e satisfação.
+
 **Registros:** 2.500 clientes | **Colunas:** 19
 
 | Coluna | Tipo | Descrição | Leakage? |
