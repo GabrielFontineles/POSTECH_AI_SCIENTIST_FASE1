@@ -16,10 +16,8 @@ POS-TECH_AI_SCIENTIST_FASE1/
 │       └── nps_processed.csv             # Gerado pelos notebooks 
 │
 ├── notebooks/
-│   ├── 01_business_understanding.ipynb   # Entendimento do negócio e da target
-│   ├── 02_eda.ipynb                      # Análise Exploratória dos Dados
-│   ├── 03_feature_engineering.ipynb      # Pré-processamento e feature engineering
-│   └── 04_modelo_preditivo.ipynb         # Modelo de classificação NPS (desafio opcional)
+│   ├── 01_eda_nps.ipynb                  # Entendimento do negócio + Análise Exploratória dos Dados
+│   └── 02_modelo_preditivo.ipynb         # Modelo de classificação NPS
 │
 ├── src/
 │   ├── __init__.py
@@ -116,10 +114,8 @@ Identificação da variável-alvo (`nps_score`) e das colunas que causariam cont
 | `complaints_count` | **−0.50** | Reclamações destroem o NPS |
 | `customer_service_contacts` | **−0.35** | Múltiplos contatos frustram |
 
-### 4. Feature Engineering
-Criação de novas variáveis: `discount_ratio`, `has_delay`, `high_contact`, `freight_per_item`.
 
-### 5. Modelo Preditivo *(desafio opcional)*
+### 4. Modelo Preditivo *(desafio opcional)*
 Classificação multiclasse (Detrator / Neutro / Promotor) com **Random Forest** e **XGBoost**. Avaliação via F1-Score Macro e validação cruzada estratificada (5 folds).
 
 ---
