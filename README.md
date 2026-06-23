@@ -195,7 +195,6 @@ Execute os notebooks **nessa ordem**: 01 → 02 → 03.
 | Prática | Como foi implementada |
 |---|---|
 | **Código organizado** | Notebooks numerados por etapa com responsabilidade clara |
-| **Nomes claros** | Snake_case em todas as variáveis |
 | **Comentários** | Cada bloco de código tem comentário explicativo |
 | **Estrutura de pastas** | `data/`, `notebooks/`, `models/`, `reports/` |
 | **README completo** | Objetivo, dados, metodologia e como reproduzir |
@@ -204,6 +203,6 @@ Execute os notebooks **nessa ordem**: 01 → 02 → 03.
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 Tech Challenge — Fase 1 | PosTech | 2026
