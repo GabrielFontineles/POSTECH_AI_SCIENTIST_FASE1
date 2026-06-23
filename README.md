@@ -10,8 +10,8 @@ Este repositório contém o desenvolvimento do Tech Challenge Fase 1 – POS TEC
 POS-TECH_AI_SCIENTIST_FASE1/
 │
 ├── data/
-│   ├── raw/                              # Dados originais, NUNCA modificados
-│   │   └── desafio_nps_fase_1.csv        # 2.500 registros de NPS
+│   ├── raw/                              
+│   │   └── desafio_nps_fase_1.csv        # TODOS os 2.500 registros de NPS
 │   └── processed/                        
 │       └── nps_processed.csv             # Gerado pelos notebooks 
 │
