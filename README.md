@@ -65,8 +65,6 @@ Quais fatores operacionais realmente influenciam a satisfação do cliente e com
 
 O dataset contém 2.500 registros de clientes com informações coletadas ao longo da jornada de compra, abrangendo dados de pedido, logistíca, atendimento e satisfação.
 
-**Registros:** 2.500 clientes | **Colunas:** 19
-
 | Coluna | Tipo | Descrição | Leakage? |
 |---|---|---|---|
 | `customer_id` | int | Identificador único do cliente | — |
@@ -96,20 +94,20 @@ O dataset contém 2.500 registros de clientes com informações coletadas ao lon
 ## Metodologia
 
 ### Notebook 01 — Análise e EDA
-- Entendimento do problema de negócio e importância do NPS
-- Definição da variável-alvo e identificação do risco de data leakage
+- Entendimento do problema de negócio e importância do NPS;
+- Definição da variável-alvo e identificação do risco de data leakage;
 - Análise exploratória completa com 6 achados principais:
-  - Distribuição do NPS Score (NPS líquido = -66)
-  - Matriz de correlação com fatores operacionais
-  - Ponto de ruptura: a partir de **2 dias de atraso**, mais de 75% dos clientes viram detratores
-  - Efeito combinado de atraso + reclamações
-  - Análise por região geográfica
+  - Distribuição do NPS Score (NPS líquido = -66);
+  - Matriz de correlação com fatores operacionais;
+  - Ponto de ruptura: a partir de **2 dias de atraso**, mais de 75% dos clientes viram detratores;
+  - Efeito combinado de atraso + reclamações;
+  - Análise por região geográfica.
 
 ### Notebook 02 — Feature Engineering
-- Remoção de colunas com data leakage (`csat_internal_score`, `repeat_purchase_30d`)
-- Encoding de variáveis categóricas (One-Hot Encoding em `customer_region`)
-- Criação de novas features: `discount_ratio`, `has_delay`, `high_contact`, `freight_per_item`
-- Geração do dataset processado `nps_processed.csv`
+- Remoção de colunas com data leakage (`csat_internal_score`, `repeat_purchase_30d`);
+- Encoding de variáveis categóricas (One-Hot Encoding em `customer_region`);
+- Criação de novas features: `discount_ratio`, `has_delay`, `high_contact`, `freight_per_item`;
+- Geração do dataset processado `nps_processed.csv`.
 
 ### Notebook 03 — Modelo Preditivo
 Duas abordagens testadas e comparadas:
