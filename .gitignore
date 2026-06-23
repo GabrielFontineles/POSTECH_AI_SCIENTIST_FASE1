@@ -20,9 +20,9 @@ env/
 *.ipynb_checkpoints
 
 # Dados (nunca versionar dados sensíveis)
-data/raw/*.csv
-data/raw/*.xlsx
-data/processed/
+#data/raw/*.csv
+#data/raw/*.xlsx
+#data/processed/
 
 # Relatórios gerados
 reports/figures/*.png
