@@ -134,6 +134,8 @@ Duas abordagens testadas e comparadas:
 
 ## Insights da Análise Exploratória de Dados
 
+![Correlação dos fatores operacionais com o NPS](reports/figures/eda_02.png)
+
 | Fator | Correlação com NPS | Insight |
 |---|---|---|
 | `delivery_delay_days` | **−0.60** | Principal driver de insatisfação |
