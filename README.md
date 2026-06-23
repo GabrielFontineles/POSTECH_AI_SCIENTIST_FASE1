@@ -11,12 +11,12 @@ POSTECH_AI_SCIENTIST_FASE1/
 │
 ├── data/
 │   ├── raw/
-│   │   └── desafio_nps_fase_1.csv        # Base original com 2.500 registros
+│   │   └── desafio_nps_fase_1.csv        # Base com TODOS os 2.500 registros de NPS
 │   └── processed/
-│       └── nps_processed.csv             # Gerado pelo notebook 02
+│       └── nps_processed.csv             # Base gerada pelo notebook 02
 │
 ├── notebooks/
-│   ├── 01_analise_eda.ipynb              # Entendimento do negócio + EDA completa
+│   ├── 01_analise_eda.ipynb              # Entendimento do negócio + EDA
 │   ├── 02_feature_engineering.ipynb      # Pré-processamento e criação de features
 │   └── 03_modelo_preditivo.ipynb         # Modelos de regressão e classificação
 │
@@ -42,7 +42,7 @@ POSTECH_AI_SCIENTIST_FASE1/
 
 | Pasta | Responsabilidade |
 |---|---|
-| `data/raw/` | Dados originais imutáveis — **nunca edite arquivos aqui** |
+| `data/raw/` | Dados originais|
 | `data/processed/` | Dataset gerado pelo pipeline de pré-processamento |
 | `notebooks/` | Análise sequencial e reproduzível, numerada por ordem de execução |
 | `models/` | Modelos treinados prontos para inferência |
@@ -55,7 +55,7 @@ POSTECH_AI_SCIENTIST_FASE1/
 Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferentes perfis de clientes. Mesmo com indicadores operacionais aparentemente similares, alguns clientes se tornam promotores e outros, detratores.
 
 **Pergunta central:**
-> Quais fatores operacionais realmente influenciam a satisfação do cliente — e como a empresa pode agir de forma **proativa**, antes mesmo da aplicação da pesquisa de NPS?
+> Quais fatores operacionais realmente influenciam a satisfação do cliente e como a empresa pode agir de forma **proativa**, antes mesmo da aplicação da pesquisa de NPS?
 
 ---
 
