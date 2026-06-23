@@ -1,8 +1,6 @@
-# NPS Preditivo — Tech Challenge Fase 1 | PosTech
+# POS-TECH AI SCIENTIST - FASE 1
 
-Projeto de Ciência de Dados desenvolvido para o **Tech Challenge da Fase 1** do curso PosTech. O objetivo é transformar dados operacionais de um e-commerce em insights acionáveis sobre a satisfação do cliente, usando o **NPS (Net Promoter Score)** como variável-alvo.
-
-> "Mais do que buscar a melhor métrica, o foco está em entendimento do problema, pensamento analítico e storytelling com dados." — Enunciado do desafio
+Este repositório contém o desenvolvimento do Tech Challenge Fase 1 – POS TECH, cujo objetivo é analisar dados de pedidos, entregas e interações de clientes em um e-commerce para compreender os fatores que influenciam a satisfação (NPS) e propor recomendações estratégicas para melhorar a experiência do cliente.
 
 ---
 
