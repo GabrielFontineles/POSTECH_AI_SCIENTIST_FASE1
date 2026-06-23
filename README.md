@@ -42,17 +42,17 @@ POSTECH_AI_SCIENTIST_FASE1/
 
 | Pasta | Responsabilidade |
 |---|---|
-| `data/raw/` | Dados originais|
-| `data/processed/` | Dataset gerado pelo pipeline de pré-processamento |
-| `notebooks/` | Análise sequencial e reproduzível, numerada por ordem de execução |
-| `models/` | Modelos treinados prontos para inferência |
-| `reports/figures/` | Gráficos exportados para relatórios e apresentações |
+| `data/raw/` | Dados originais.|
+| `data/processed/` | Dataset gerado pelo pipeline de pré-processamento. |
+| `notebooks/` | Análise sequencial e reproduzível, numerada por ordem de execução. |
+| `models/` | Modelos treinados prontos para inferência. |
+| `reports/figures/` | Gráficos exportados para relatórios e apresentações gerenciais. |
 
 ---
 
 ## Objetivo do Projeto
 
-Uma empresa de e-commerce enfrenta **alta variabilidade no NPS** entre diferentes perfis de clientes. Mesmo com indicadores operacionais aparentemente similares, alguns clientes se tornam promotores e outros, detratores.
+Uma empresa de e-commerce identificou alta variabilidade no NPS entre seus clientes e precisava entender quais fatores operacionais realmente fazem a diferença na experiência de compra.
 
 **Pergunta central:**
 Quais fatores operacionais realmente influenciam a satisfação do cliente e como a empresa pode agir de forma **proativa**, antes mesmo da aplicação da pesquisa de NPS?
