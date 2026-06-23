@@ -25,8 +25,8 @@ env/
 # data/processed/
 
 # Relatórios gerados
-reports/figures/*.png
-reports/figures/*.svg
+# reports/figures/*.png
+# reports/figures/*.svg
 
 # Variáveis de ambiente
 .env
