@@ -1,7 +1,7 @@
 """
 utils.py
 --------
-Funções auxiliares reutilizáveis para o projeto NPS E-commerce.
+Funções auxiliares reutilizáveis para o projeto POSTECH_AI_SCIENTIST_FASE1.
 """
 
 import pandas as pd
